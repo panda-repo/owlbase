@@ -72,7 +72,7 @@ async def list_admin_handler(helper: Helper, id_bot: int):
         pesan += "<b>Daftar Admin bot</b>\n"
         for ind, i in enumerate(db.admin, start=1):
             pesan += (
-                f"• ID: {str(i)} | <a href='tg://user?id={str(i)}'>Admin {str(ind)}"
+                f"• ID: {str(i)} | <a href='tg://user?id={str(i)}'>{db.mention} {str(ind)}"
                 + "</a>\n"
             )
     await helper.message.reply_text(pesan, True, enums.ParseMode.HTML)
