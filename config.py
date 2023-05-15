@@ -5,7 +5,7 @@ api_hash = os.environ.get("API_HASH", "4925060cfe1908846070a018e5f5da02")
 bot_token = os.environ.get("BOT_TOKEN", "5980751640:AAGOYsE85FHjgr56Rk2GlemxXyN_K0eb4OU")
 # =========================================================== #
 
-db_url = os.environ.get("DB_URL", "mongodb+srv://neko:<password>@nekomenfess.ss5r7je.mongodb.net/?retryWrites=true&w=majority")
+db_url = os.environ.get("DB_URL", "mongodb+srv://owl:<password>@owlbase.20i0fnf.mongodb.net/?retryWrites=true&w=majority")
 db_name = os.environ.get("DB_NAME", "menfess")
 # =========================================================== #
 
