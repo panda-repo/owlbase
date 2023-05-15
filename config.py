@@ -1,17 +1,17 @@
 import os
 
-api_id = int(os.environ.get("API_ID", "24465982"))
-api_hash = os.environ.get("API_HASH", "2b3131b7d3f6a42bd4ae1ba3b58c11c4")
-bot_token = os.environ.get("BOT_TOKEN", "5974054493:AAFTQvELK38jPc5p1JBRN5ZuUlTTbUmcFT4")
+api_id = int(os.environ.get("API_ID", "27867060"))
+api_hash = os.environ.get("API_HASH", "4925060cfe1908846070a018e5f5da02")
+bot_token = os.environ.get("BOT_TOKEN", "5980751640:AAGOYsE85FHjgr56Rk2GlemxXyN_K0eb4OU")
 # =========================================================== #
 
 db_url = os.environ.get("DB_URL", "mongodb+srv://neko:<password>@nekomenfess.ss5r7je.mongodb.net/?retryWrites=true&w=majority")
 db_name = os.environ.get("DB_NAME", "menfess")
 # =========================================================== #
 
-channel_1 = int(os.environ.get("CHANNEL_1", "-1001884106616"))
-channel_2 = int(os.environ.get("CHANNEL_2", "-1001973439933"))
-channel_log = int(os.environ.get("CHANNEL_LOG", "-1001941178911"))
+channel_1 = int(os.environ.get("CHANNEL_1", "-1001162542681"))
+channel_2 = int(os.environ.get("CHANNEL_2", "-1001884106616"))
+channel_log = int(os.environ.get("CHANNEL_LOG", "-1001883858306"))
 # =========================================================== #
 
 id_admin = int(os.environ.get("ID_ADMIN", "5633222043"))
